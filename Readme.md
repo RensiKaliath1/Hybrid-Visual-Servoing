@@ -5,7 +5,6 @@ pose estimation. MoveIt is used for controlling the arm by planning a trajectory
 camera configuration is used. Moveit calibration package calibrates the pose of the eye-to-hand camera w.r.t base of the arm. 
 
 As the arm moves towards the object, the eye-in-hand camera loses tracking and image-based visual servoing takes control. For feature detection, SURF (Speeded Up Robust Features) and homography based tracking is employed. 
-![Uploading Screenshot 2024-12-02 074009.png…]()
 
 Third party libraries used:
 
