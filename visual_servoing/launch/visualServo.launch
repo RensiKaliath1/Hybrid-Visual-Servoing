@@ -1,0 +1,32 @@
+<launch>
+    <arg name="bodies" default="['asymmetric_pipestar_without_cap', 'asymmetric_pipestar_without_cap']"/>
+    
+	<rosparam command="load" file="$(find visual_servoing)/config/visual_servo_params.yaml"/>
+    <arg name="useDepth" default="false"/>
+    <arg name="servo" default="IBVS"/>
+
+	<node pkg= "resources" type = "tf_broadcaster_pencilTipFrame" name = "tf_broadcaster_pencilTipFrame" output = "screen"></node>
+	<node pkg= "visual_servoing" type = "pbvs" name = "pbvs" output = "screen"></node>
+<!--
+	<node pkg="m3t" type="posetracking" name="posetracking" output="screen"></node>
+-->
+	<node pkg="pose_estimation_icg" type="posetracking_icg" name="posetracking_icg" output="screen"></node>
+    <node pkg="visual_servoing" type="ibvs_arm" name="ibvs_arm" output="screen"></node>
+    
+    <group ns = "my_gen3">
+    <node pkg="arm_controller" type="arm_controllers" name="arm_controllers" output="screen"></node>
+    </group>
+    
+<!--
+    <node pkg="visual_servoing" type="pbvs" name="pbvs" output="screen">
+    <node pkg="pose_estimation_icg" type="posetracking_icg" name="posetracking_icg" output="screen">
+        <param name="bodies" type="yaml" value="$(arg bodies)" />
+        <param name="useDepth" type="yaml" value="$(arg useDepth)" />
+         <remap from="/world" to="/base_link"/>
+-->
+<!--
+        <remap from="/GETjag/camera_gripper/camera_info" to="/usb_cam/camera_info"/>
+        <remap from="/GETjag/camera_gripper/image_raw" to="/usb_cam/image_raw"/>
+-->
+    
+</launch>

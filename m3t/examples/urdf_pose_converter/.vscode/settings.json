@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pg/rrs_ss22/rensi/ros_kortex/devel/lib/python3/dist-packages",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/devel/lib/python3/dist-packages",
+        "/eda/gazebo/ros/noetic/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pg/rrs_ss22/rensi/ros_kortex/devel/lib/python3/dist-packages",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/devel/lib/python3/dist-packages",
+        "/eda/gazebo/ros/noetic/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

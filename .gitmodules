@@ -1,0 +1,3 @@
+[submodule "ros_kortex_vision"]
+	path = ros_kortex_vision
+	url = https://github.com/Kinovarobotics/ros_kortex_vision

@@ -1,0 +1,11 @@
+<launch>
+
+<!--
+  <node pkg="tf" type="static_transform_publisher" name="kinova_gen3" args="0.0697 1.5447 0.2 1.2463 -0.0 3.133 kinova_gen3_base_link camera_rgb_optical_frame 100"/>
+-->
+  <!-- Node 0: Load ROS Params from YAML File -->
+  <rosparam command="load" file="$(find visual_servoing)/config/visual_servo_params.yaml"/>
+
+  <node pkg="visual_servoing" type="ibvs_arm" name="ibvs_arm" output="screen"/>
+
+</launch>

@@ -1,0 +1,84 @@
+VisualServoing:
+  parameters:
+    servo_type: "Hybrid"
+    initial_approach: "PlanningBased"
+    task      : "touch"
+    touch_distance: 0.065
+    inspection_distance: 0.35
+    adaptive_gain_zero_pbvs: 0.5
+    adaptive_gain_inf_pbvs: 0.1
+    adaptive_gain_zero_ibvs: 2
+    adaptive_gain_inf_ibvs: 0.5
+    error_threshold: 0.00001
+    tracking_error_threshold: 0.5
+    simulator: false
+    IBVS: 
+        #~ touch:
+          #~ desired_camera_transform_wrt_object_frame: [0.0, 0.05639, 0.227, -0.63, 0.0, 0.0]
+          #~ model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.022, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          #~ feature_pixel_values: [[563,320], [744, 323],[866, 508], [440, 490]]
+          #~ initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/frameTouch3.jpg"
+        #~ touch:
+          #~ desired_camera_transform_wrt_object_frame: [0.0, 0.05639, 0.228, -0.63, 0.0, 0.0]
+          #~ model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.022, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          #~ feature_pixel_values: [[561,352], [768, 324],[939, 519], [420, 609]]
+          #~ initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/touch4.jpg"
+        touch:
+          desired_camera_transform_wrt_object_frame: [0.0, 0.05639, 0.23, -0.63, 0.0, 0.0]
+          model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.023, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          feature_pixel_values: [[568,300], [748, 300],[878, 481], [448, 481]]
+          initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/touch6.jpg"
+        inspection:
+          #desired_camera_transform_wrt_object_frame: [0.01, 0.020, 0.40, -0.63, 0.0, 0.0]
+          desired_camera_transform_wrt_object_frame: [0.0, 0.0075, 0.18, -0.63, 0.0, 0.0]
+          model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.022, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          feature_pixel_values: [[544,299], [760, 306],[909, 539], [376, 511]]
+          initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/frameInspection2.jpg"
+        graspSide:
+          desired_camera_transform_wrt_object_frame: [0.0, 0.04, 0.25, -0.63, 0.0, 0.0]
+          model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.022, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          feature_pixel_values: [[565,332], [731, 345],[838, 516], [444, 491]]
+          initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/grasp1.jpg"
+        #~ graspSide:
+          #~ desired_camera_transform_wrt_object_frame: [0.0, 0.04, 0.25, -0.63, 0.0, 0.0]
+          #~ model_reference_points: [[-0.0301, -0.022, -0.023], [0.0301, -0.022, -0.023], [0.075, 0.022, 0.023], [-0.075, 0.022, 0.023]]
+          #~ feature_pixel_values: [[524, 340], [715, 350],[844, 556], [378, 529]]
+          #~ initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/grasp7.jpg"
+        graspTop:
+          desired_camera_transform_wrt_object_frame: [0.0, 0.05639, 0.30, -0.1, 0.0, 0.0]
+          model_reference_points: [[-0.075, -0.075, 0.0], [0.075, -0.075, 0.0], [0.075, 0.075, 0.0], [-0.075, 0.075, 0.0]]
+          feature_pixel_values: [[461,179], [940, 159],[976, 669], [461, 673]]
+          initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/graspTop1.jpg"
+        #~ inspection:
+          #~ desired_camera_transform_wrt_object_frame: [0.0, 0, 0.29, 0, 0.0, 0.0]
+          #~ model_reference_points: [[-0.025, -0.025, 0.0], [0.025, -0.025, 0.0], [0.025, 0.025, 0.0], [-0.025, 0.025, 0.0]]
+          #~ feature_pixel_values: [[623,96], [946, 111],[920, 436], [593, 416]]
+          #~ initial_image: "/home/pg/rrs_ss22/rensi/ros/packages/visual_servoing/models/frameInspection3.jpg"
+    PBVS:
+      touch:
+        #desired_camera_transform_wrt_object_frame: [-0.017516106367111206, -0.02108526974916458, 60.0, 3.07675, -0.83589, -1.44559]
+        #desired_camera_transform_wrt_object_frame: [0.012169843539595604, -0.003502756357192993, 0.50, 3.00388, -0.848683, -1.79825] 
+        desired_camera_transform_wrt_object_frame: [-0.02280466817319393, -0.05640057474374771, 0.5614342093467712, 3.09477, -0.64585, -1.56338]   
+       # desired_camera_transform_wrt_object_frame: [0.009600881487131119, 0.012169843539595604, 0.4180673360824585, 3.10742, -0.830573, -1.59825]
+      inspection:
+        desired_camera_transform_wrt_object_frame: [-0.011731897480785847, -0.034412968903779984, 0.50, 2.2864, -0.0409898, -0.0300805]
+        #~ desired_camera_transform_wrt_object_frame: [0.00435298, -0.0301469, 0.29, 2.29787, -0.0164288, 0.0271298]
+      graspSide:
+        desired_camera_transform_wrt_object_frame: [-0.011731897480785847, -0.034412968903779984, 0.50, 2.2864, -0.0409898, -0.0300805]
+      graspTop:
+        desired_camera_transform_wrt_object_frame: [-0.030093811452388763, 0.05807885900139809, 0.3739281892776489, 3.12281, -0.121002, -1.56309]
+    PlanningBased:
+      touch:
+        desired_camera_transform_wrt_object_frame: [-0.30,0.0, 0.2, 2.2, 0.0, 1.57]   
+      inspection:
+        desired_camera_transform_wrt_object_frame: [0.02,-0.30, 0.2, 2.2, 0.0, 3.10]
+      graspSide:
+        desired_camera_transform_wrt_object_frame: [-0.0,-0.40, 0.22, 2.2, 0.0, 3.10]   
+    M3T:
+      bodies: ['asymmetric_pipestar_without_cap']
+      manualDetectorFilename: "_asymmetric_pipestar_without_cap_manual_detector_inspection.yaml"
+      useDepth: false
+    ICG:
+      bodies: ['asymmetric_pipestar_without_cap']
+      manualDetectorFilename: "_asymmetric_pipestar_without_cap_manual_detector_inspection.yaml"
+      useDepth: false

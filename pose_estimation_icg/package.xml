@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>pose_estimation_icg</name>
+	<version>0.0.0</version>
+	<description>gazebo package for pose estimation using ICG</description>
+	<maintainer email="todo@todo.todo">todo</maintainer>
+
+	<license>TODO</license>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<depend>roscpp</depend>
+
+	<depend>geometry_msgs</depend>
+	<depend>nav_msgs</depend>
+	<depend>sensor_msgs</depend>
+	<depend>std_msgs</depend>
+	<depend>tf</depend>
+	<depend>dynamic_reconfigure</depend>
+	
+	<depend>estimated_pose_msg</depend>
+    <depend>cv_bridge</depend>
+    <depend>image_transport</depend>
+</package>

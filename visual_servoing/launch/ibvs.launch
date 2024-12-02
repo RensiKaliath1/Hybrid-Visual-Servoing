@@ -1,0 +1,6 @@
+<launch>
+	  <!--node pkg="tf2_ros" type="static_transform_publisher" name="camera_sensor_to_image" args ="0 0 0 0 1.5708  0 link image_link"/-->
+<include file = "$(find gazebo_ros)/launch/empty_world.launch">
+	<arg name = "world_name" value= "$(find ibvs)/worlds/small_world1.world"/>
+</include>
+</launch>

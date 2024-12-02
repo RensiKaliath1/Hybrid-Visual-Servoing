@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="pose_estimation_icg" type="posetracking" name="posetracking" output="log"
+        launch-prefix="xterm -e gdb --args"/>
+</launch>

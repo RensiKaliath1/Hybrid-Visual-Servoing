@@ -1,0 +1,151 @@
+[
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/common.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/common.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/common.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/body.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/body.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/body.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/renderer_geometry.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/renderer_geometry.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/renderer_geometry.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/renderer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/renderer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/renderer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/normal_renderer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/normal_renderer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/normal_renderer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/basic_depth_renderer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/basic_depth_renderer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/basic_depth_renderer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/model.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/model.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/model.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/region_model.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/region_model.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/region_model.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/depth_model.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/depth_model.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/depth_model.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/camera.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/camera.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/camera.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/loader_camera.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/loader_camera.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/loader_camera.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/viewer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/viewer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/viewer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/image_viewer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/image_viewer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/image_viewer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/normal_viewer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/normal_viewer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/normal_viewer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/modality.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/modality.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/modality.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/region_modality.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/region_modality.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/region_modality.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/depth_modality.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/depth_modality.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/depth_modality.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/optimizer.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/optimizer.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/optimizer.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/detector.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/detector.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/detector.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/static_detector.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/static_detector.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/static_detector.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/manual_detector.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/manual_detector.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/manual_detector.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/refiner.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/refiner.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/refiner.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/publisher.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/publisher.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/publisher.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/tracker.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/tracker.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/tracker.cpp"
+},
+
+{
+  "directory": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/m3t.dir/generator.cpp.o -c /home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/generator.cpp",
+  "file": "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/pose_estimation_icg/src/generator.cpp"
+}
+]

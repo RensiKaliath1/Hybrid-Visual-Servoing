@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+
+	<name>visual_servoing</name>
+    <maintainer email="rensiraghunathnk@gmail.com">Rensi Nadakkakath Kaliath</maintainer>
+	<version>0.0.0</version>
+	<description>dexterity package</description>
+	<license>TBD</license>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<depend>roscpp</depend>
+	<depend>actionlib</depend>
+	<depend>actionlib_msgs</depend>
+	<depend>control_msgs</depend>
+	<depend>cv4_bridge</depend>
+	<depend>image_transport</depend>
+	<depend>sensor_msgs</depend>
+	<depend>geometry_msgs</depend>
+	<depend>message_generation</depend>
+	<depend>visualization_msgs</depend>
+	<depend>std_msgs</depend>
+	<depend>visp</depend>
+	<depend>camera_calibration_parsers</depend>
+	<depend>estimated_pose_msg</depend>
+	<depend>kinova_twist</depend>
+	<depend>kortex_driver</depend>
+	<depend>gazebo</depend>
+	<depend>controller_manager</depend>
+	<depend>moveit_ros_planning_interface</depend>
+    <depend>moveit_ros_move_group</depend>
+    <depend>moveit_core</depend>
+</package>

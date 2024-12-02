@@ -1,0 +1,17 @@
+<launch>
+    <arg name="bodies" default="['asymmetric_pipestar_without_cap', 'asymmetric_pipestar_without_cap']"/>
+<!--
+    <arg name="bodies" default="['asymmetric_pipestar_with_cap', 'asymmetric_pipestar_with_cap']"/>
+-->
+    <arg name="useDepth" default="false"/>
+    <node pkg="pose_estimation_icg" type="posetracking_icg" name="posetracking_icg" output="screen">
+        <param name="bodies" type="yaml" value="$(arg bodies)" />
+        <param name="useDepth" type="yaml" value="$(arg useDepth)" />
+         <remap from="/world" to="/base_link"/>
+<!--
+        <remap from="/GETjag/camera_gripper/camera_info" to="/usb_cam/camera_info"/>
+        <remap from="/GETjag/camera_gripper/image_raw" to="/usb_cam/image_raw"/>
+-->
+    </node>
+</launch>
+

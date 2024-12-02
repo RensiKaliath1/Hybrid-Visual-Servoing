@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/pg/rrs_ss22/rensi/ros_kortex/devel/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/devel/include/**",
+        "/eda/gazebo/ros/noetic/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/arm_manual_control/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/cv4_bridge/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/dexterity/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/dynamixel_driver/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/third_party/gazebo-pkgs/gazebo_grasp_plugin/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/third_party/gazebo-pkgs/gazebo_version_helpers/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/get_gazebo_plugins/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/ibvs_eye_to_hand/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/ibvs_position/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/ibvs_velocity/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/joystick_arm_control/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/kortex_driver/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/m3t/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/pose_estimation_icg/include/**",
+        "/home/pg/rrs_ss22/rensi/ros_kortex/src/third_party/roboticsgroup_upatras_gazebo_plugins/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/scanner_control/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/sensorhead_control/include/**",
+        "/home/pg/rrs_ss22/rensi/Thesis/src/charania/src/submodules/dynamixel/trajectory_action_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "tasks": [     
+    {       
+        "label": "make_debug",
+    "type": "catkin_make",
+    "args": [
+        "--directory",
+        "${workspaceFolder}",
+        "-DCMAKE_BUILD_TYPE=Debug", // This extra argument enables built with debug symbols
+    ],
+    "problemMatcher": [
+        "$catkin-gcc"
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+},
+    ],
+
+    "configurations": [
+        {
+            "name": "ROS: Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "${workspaceFolder}/launch/posetracking.launch", // <<< Configure path to your launch file
+            "preLaunchTask": "make_debug", // <<< This is the task that will run before debugging starts
+        }
+
+    ]
+}

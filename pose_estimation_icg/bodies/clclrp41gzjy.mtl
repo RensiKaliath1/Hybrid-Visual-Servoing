@@ -1,0 +1,23 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.0)
+
+newmtl M_pipestarBase
+Kd 1 1 1
+Ka 0.5 0.5 0.5
+Ks 0.009999999776482582 0.009999999776482582 0.009999999776482582
+Ke 0 0 0
+Ni 1
+Ns 50
+illum 2
+map_Kd Pipestarbase.png
+
+newmtl M_pipestarBase_001
+Kd 1 1 1
+Ka 0.5 0.5 0.5
+Ks 0.009999999776482582 0.009999999776482582 0.009999999776482582
+Ke 0 0 0
+Ni 1
+Ns 50
+illum 2
+map_Kd Pipestarbase.png
+
