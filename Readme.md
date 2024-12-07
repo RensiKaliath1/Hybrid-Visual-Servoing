@@ -60,10 +60,6 @@ For IBVS, The object origin is the center of the plane whose corners are being t
 	roslaunch m3t convertTomatrix.launch
 	rosrun m3t posetracking_kinematic
 	
-### To track non-kinematic objects, run node posetracking. Tracking non-kinematic structures with m3t seems to have some issue. 
-This is issue is probably with the ros-wrapper. For Hybrid approaches ICG is used for tracking and this seems to give a better result.
-	rosrun m3t posetracking
-
 ### To calibrate eye-to-hand camera:
 	In RVIZ, add moveit_calibration_gui HandEyeCalibration and calibrate the camera. Attach Aruco target to the end-effector. 
 	Make sure the eye_to_hand camera pose w.r.t robot base is being broadcasted. Now eye-to-hand camera is ready to be used.
