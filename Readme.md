@@ -10,12 +10,12 @@ As the arm moves towards the object, the eye-in-hand camera loses tracking and i
 ![Screenshot 2024-11-25 132302](https://github.com/user-attachments/assets/37efc1be-6033-4b91-81a6-0ee708e2f0c0)
 
 <br />
-Third party libraries used:
-1. M3T
-2. ICG
-3. OpenCV
-4. MoveIt
-5. Visp
+Third party libraries used: <br />
+1. M3T <br />
+2. ICG <br />
+3. OpenCV <br />
+4. MoveIt <br />
+5. Visp <br />
 
 Open-loop planning based approach is implemented in package planning_based_controller
 PBVS, IBVS and SURF-Homography tracking in package visual_servoing
